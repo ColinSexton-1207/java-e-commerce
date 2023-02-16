@@ -5,7 +5,7 @@ CREATE TABLE orders (
 	shipping_address	TEXT		NOT NULL,
 	recipient_name		TEXT		NOT NULL,
 	recipient_phone		TEXT		NOT NULL,
-	payment-method		TEXT		NOT NULL,
+	payment_method		TEXT		NOT NULL,
 	order_total			FLOAT		,
 	order_status		TEXT		,
 	CONSTRAINT customer_id_or FOREIGN KEY(customer_id) REFERENCES customer(customer_id),
